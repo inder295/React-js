@@ -26,7 +26,7 @@ function App() {
     running.current=true;
 
      setLoading(true);
-     await new Promise((resolve)=> setTimeout(resolve, 1000))
+     await new Promise((resolve)=> setTimeout(resolve, 100))
      fn()
      setLoading(false)
 
